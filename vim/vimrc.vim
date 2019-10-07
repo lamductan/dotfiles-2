@@ -11,11 +11,27 @@
 	Plug 'airblade/vim-gitgutter'
 	Plug 'pearofducks/ansible-vim', { 'do': 'cd ./UltiSnips; ./generate.py' }
 	Plug 'mustache/vim-mustache-handlebars'
+	Plug 'octol/vim-cpp-enhanced-highlight'
+	Plug 'NLKNguyen/papercolor-theme'
+	Plug 'jacoborus/tender.vim'
+	Plug 'kyoz/purify', { 'rtp': 'vim' }
+	Plug 'sainnhe/vim-color-forest-night'
+	Plug 'morhetz/gruvbox'
+	Plug 'mhartington/oceanic-next'
+	Plug 'vim-python/python-syntax'
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	call plug#end()
 
-	colorscheme dracula
-
 	syntax on
+  "	colorscheme onehalfdark
+	
+	set background=dark
+"  	colorscheme PaperColor
+"   	colorscheme purify
+"   	colorscheme forest-night
+"   	colorscheme jellybeans
+	colorscheme OceanicNext
+
 	let mapleader=","
 	set autoindent
 	set tabstop=2
@@ -112,3 +128,14 @@
 " Fix for: https://github.com/fatih/vim-go/issues/1509
 
 filetype plugin indent on
+
+" C/C++
+let c_no_curly_error=1
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_experimental_simple_template_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
+" Python
+let g:python_highlight_all = 1
