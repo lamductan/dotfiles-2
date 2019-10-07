@@ -1,4 +1,20 @@
 " General Vim settings
+
+	call plug#begin()
+	Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+	Plug 'othree/yajs'
+	Plug 'mxw/vim-jsx'
+	Plug 'hashivim/vim-terraform'
+	Plug 'sonph/onehalf', {'rtp': 'vim/'}
+	Plug 'dracula/vim', { 'as': 'dracula' }
+	Plug 'vim-airline/vim-airline'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'pearofducks/ansible-vim', { 'do': 'cd ./UltiSnips; ./generate.py' }
+	Plug 'mustache/vim-mustache-handlebars'
+	call plug#end()
+
+	colorscheme dracula
+
 	syntax on
 	let mapleader=","
 	set autoindent
