@@ -2,8 +2,8 @@
 	syntax on
 	let mapleader=","
 	set autoindent
-	set tabstop=4
-	set shiftwidth=4
+	set tabstop=2
+	set shiftwidth=2
 	set dir=/tmp/
 	set relativenumber 
 	set number
