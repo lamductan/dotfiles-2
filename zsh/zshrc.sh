@@ -88,4 +88,7 @@ export EDITOR=vim
 export LD_LIBRARY_PATH=/usr/local/lib
 export CMAKE_INCLUDE_PATH=$HOME/Downloads/programs/protobuf-3.9.2/src/google/protobuf
 #export PATH=/home/lamductan/dev/courses/operating-system/project/pintos/src/utils:$PATH
-export PATH=$PATH:$HOME/dev/courses/operating-system/final/pintos/src/utils:/home/lamductan/dev/courses/operating-system/project/pintos/src/utils:/home/lamductan/bin:/home/lamductan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export PATH=$PATH:$HOME/dev/courses/operating-system/project/pintos/src/utils:/home/lamductan/dev/courses/operating-system/project/pintos/src/utils:/home/lamductan/bin:/home/lamductan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export PATH=$PATH:/home/lamductan/.local/go/bin:/home/lamductan/.local/go/bin/bin
+export GOPATH=/home/lamductan/.local/go/bin
+
